@@ -84,7 +84,7 @@ DesignPatternsPy/
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/DesignPatternsPy.git
+   git clone https://github.com/MuketaUeda/DesignPatternsPy.git
    cd DesignPatternsPy
    ```
 
@@ -163,45 +163,6 @@ Padrões que lidam com a comunicação entre objetos e a distribuição de respo
 
 ---
 
-## 💡 Exemplos Práticos
-
-### 🎯 Singleton - Serviços Globais
-
-```python
-# ✅ Com Singleton
-payment_service = PaymentService()
-payment_service2 = PaymentService()
-print(payment_service is payment_service2)  # True - mesma instância
-
-# ❌ Sem Singleton (código padrão)
-payment_service = PaymentService()
-payment_service2 = PaymentService()
-print(payment_service is payment_service2)  # False - instâncias diferentes
-```
-
-### 🔄 Observer - Notificações em Tempo Real
-
-```python
-# Sistema de notificação de estoque
-product = Product("iPhone", 5000)
-customer = Customer("João")
-
-product.add_observer(customer)  # Cliente observa o produto
-product.set_stock(0)  # Notifica automaticamente o cliente
-```
-
-### 🎨 Decorator - Descontos Dinâmicos
-
-```python
-# Aplicando descontos dinamicamente
-order = BasicOrder(100)
-order = BlackFridayDiscount(order)  # 20% off
-order = LoyaltyDiscount(order)      # 10% adicional
-print(order.get_total())  # 72.0
-```
-
----
-
 ## 🔧 Tecnologias
 
 - **🐍 Python 3.8+**: Linguagem principal
@@ -254,20 +215,6 @@ Contribuições são bem-vindas! Aqui estão algumas formas de contribuir:
   - "Head First Design Patterns"
   - "Python Design Patterns"
 
-- **Cursos**:
-  - Udemy: Design Patterns em Python
-  - Coursera: Software Architecture
-  - YouTube: Canais de programação
-
-### 🎯 Próximos Passos
-
-1. **Estude um padrão por vez**
-2. **Execute os exemplos**
-3. **Modifique os códigos**
-4. **Crie suas próprias implementações**
-5. **Aplique em projetos reais**
-
----
 
 ## 📄 Licença
 
@@ -279,22 +226,19 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 - **Gang of Four**: Pelo livro seminal sobre Design Patterns
 - **Comunidade Python**: Pelo suporte e recursos
-- **Contribuidores**: Por melhorar este projeto
 
 ---
 
 ## 📞 Contato
 
-- **GitHub**: [@seu-usuario](https://github.com/seu-usuario)
-- **Email**: seu-email@exemplo.com
-- **LinkedIn**: [Seu Nome](https://linkedin.com/in/seu-perfil)
+- **GitHub**: [@MuketaUeda](https://github.com/MuketaUeda)
+- **Email**: gt.rosati@gmail.com
+- **LinkedIn**: [Gabriel Rosati](https://www.linkedin.com/in/gabriel-tb-rosati/)
 
 ---
 
 <div align="center">
 
 **⭐ Se este projeto te ajudou, considere dar uma estrela! ⭐**
-
-*"O conhecimento compartilhado é conhecimento multiplicado"*
 
 </div>

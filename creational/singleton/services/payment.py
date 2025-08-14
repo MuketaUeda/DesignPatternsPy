@@ -1,4 +1,4 @@
-# services/payment.py
+# services/payment.py using singleton pattern
 class PaymentService:
 
     _instance = None
