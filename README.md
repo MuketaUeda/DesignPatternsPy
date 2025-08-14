@@ -232,7 +232,6 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 ## 📞 Contato
 
 - **GitHub**: [@MuketaUeda](https://github.com/MuketaUeda)
-- **Email**: gt.rosati@gmail.com
 - **LinkedIn**: [Gabriel Rosati](https://www.linkedin.com/in/gabriel-tb-rosati/)
 
 ---
