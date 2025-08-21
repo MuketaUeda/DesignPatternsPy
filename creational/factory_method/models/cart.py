@@ -1,4 +1,4 @@
-# models/cart.py using singleton pattern
+# models/cart.py
 class Cart:
     def __init__(self):
         self.products = []

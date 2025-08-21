@@ -36,6 +36,14 @@ Este projeto é uma **coleção completa e educativa** de Design Patterns implem
 - **🚀 Executável**: Todos os exemplos podem ser executados e testados
 - **📝 Documentado**: Código bem comentado e documentado
 
+### 📊 Status do Projeto
+
+- **✅ Implementados**: 2/23 padrões (8.7%)
+  - Singleton (Creational)
+  - Factory Method (Creational)
+- **🔄 Em Desenvolvimento**: 21/23 padrões
+- **🎯 Próximos**: Abstract Factory, Builder, Observer
+
 ---
 
 ## 🏗️ Estrutura do Projeto
@@ -105,8 +113,12 @@ DesignPatternsPy/
 cd creational/singleton
 python main.py
 
+# Executar exemplo do Factory Method
+cd ../factory_method
+python main.py
+
 # Executar exemplo do Observer
-cd ../behavioral/observer
+cd ../../behavioral/observer
 python main.py
 
 # Executar exemplo do Adapter
@@ -125,7 +137,7 @@ Padrões que lidam com a criação de objetos, tornando o sistema mais flexível
 | Padrão | Status | Descrição | Exemplo |
 |--------|--------|-----------|---------|
 | **Singleton** | ✅ | Garante uma única instância de uma classe | Serviços de pagamento, notificação |
-| **Factory Method** | 🔄 | Delega a criação de objetos para subclasses | Criação de produtos |
+| **Factory Method** | ✅ | Delega a criação de objetos para subclasses | Criação de produtos |
 | **Abstract Factory** | 🔄 | Cria famílias de objetos relacionados | UI components |
 | **Builder** | 🔄 | Constrói objetos complexos passo a passo | Configuração de pedidos |
 | **Prototype** | 🔄 | Cria novos objetos clonando um protótipo | Templates de produtos |
